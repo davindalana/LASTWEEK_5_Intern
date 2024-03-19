@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 5278932662573599429}
   - component: {fileID: 662081794437607074}
   - component: {fileID: 5805379890323320153}
-  - component: {fileID: 5459836364488146166}
   - component: {fileID: 2360389108280101083}
+  - component: {fileID: 5459836364488146166}
+  - component: {fileID: 2782568279967952922}
   m_Layer: 0
   m_Name: FireBall
   m_TagString: Untagged
@@ -76,12 +77,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bb6d74191dc7b41fc8b4e54923810acd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98a2d272400a94602a44bb913d81aa14, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -122,21 +123,6 @@ CircleCollider2D:
   m_Offset: {x: 0.11978056, y: 0.02164705}
   serializedVersion: 2
   m_Radius: 0.1150742
---- !u!114 &5459836364488146166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358548153573283042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b21412a291cb44079889df0a733b9ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  destroyTime: 2
-  damageAmount: 1
 --- !u!50 &2360389108280101083
 Rigidbody2D:
   serializedVersion: 4
@@ -164,3 +150,39 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5459836364488146166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6358548153573283042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b21412a291cb44079889df0a733b9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 8
+  destroyTime: 2
+  damageAmount: 1
+--- !u!95 &2782568279967952922
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6358548153573283042}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb6f899b3c30d4a30bd81c5fda1046b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

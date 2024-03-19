@@ -12,8 +12,6 @@ public class WaterBallBehaviour : MonoBehaviour
     void Awake()
     {
         Destroy(gameObject, destroyTime);
-     
-
     }
 
     void Update()
@@ -27,12 +25,12 @@ public class WaterBallBehaviour : MonoBehaviour
             EnemyHealth enemyHealth = other.gameObject.GetComponent<EnemyHealth>();
             if (other.CompareTag("Beast"))
             {
-            enemyHealth.TakeDamage(2*damageAmount);
-            enemyHealth.KnockBack();
+                enemyHealth.TakeDamage(2 * damageAmount);
+                enemyHealth.KnockBack();
             }
             if (other.CompareTag("Humanoid"))
             {
-            enemyHealth.TakeDamage(damageAmount);
+                enemyHealth.TakeDamage(damageAmount);
             }
             Destroy(gameObject);
         }
