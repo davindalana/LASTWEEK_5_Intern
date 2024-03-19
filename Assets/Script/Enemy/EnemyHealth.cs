@@ -32,9 +32,13 @@ public class EnemyHealth : MonoBehaviour
     {
         currentHealth -= damage;
         healthBar.UpdateHealthBar(currentHealth,maxHealth);
-        knockback.GetKnockedBack(PlayerMovement.Instance.transform, 15f);
         Debug.Log(currentHealth);
         StartCoroutine(flash.FlashRoutine());
+    }
+
+    public void KnockBack()
+    {
+        knockback.GetKnockedBack(PlayerMovement.Instance.transform, 15f);
     }
 
     public void DetectDeath()

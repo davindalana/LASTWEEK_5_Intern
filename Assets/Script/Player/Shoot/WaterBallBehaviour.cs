@@ -28,6 +28,7 @@ public class WaterBallBehaviour : MonoBehaviour
             if (other.CompareTag("Beast"))
             {
             enemyHealth.TakeDamage(2*damageAmount);
+            enemyHealth.KnockBack();
             }
             if (other.CompareTag("Humanoid"))
             {

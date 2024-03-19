@@ -8,10 +8,12 @@ public class FireBallBehavior : MonoBehaviour
     public float speed, destroyTime;
     [SerializeField]
     private int damageAmount = 1;
+    private KnockBack knockback;
 
     void Awake()
     {
         Destroy(gameObject, destroyTime);
+        knockback = GetComponent<KnockBack>();
     }
 
     void Update()
@@ -30,6 +32,7 @@ public class FireBallBehavior : MonoBehaviour
             if (other.CompareTag("Humanoid"))
             {
             enemyHealth.TakeDamage(2*damageAmount);
+            enemyHealth.KnockBack();
             }
             Destroy(gameObject);
         }

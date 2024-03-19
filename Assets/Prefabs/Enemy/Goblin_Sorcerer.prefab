@@ -430,6 +430,8 @@ GameObject:
   - component: {fileID: 1625291677900720533}
   - component: {fileID: 5207298026944651567}
   - component: {fileID: 1569641249230114409}
+  - component: {fileID: 5238357719071210384}
+  - component: {fileID: 1778173239850454874}
   m_Layer: 6
   m_Name: Goblin_Sorcerer
   m_TagString: Humanoid
@@ -626,6 +628,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eH: 3
   healthBar: {fileID: 0}
+--- !u!114 &5238357719071210384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266633926314993095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 390431f57e6284f95871edd0d481114e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1778173239850454874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266633926314993095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cc6d06729434ae28277321439eb45d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &8781905151129326841
 GameObject:
   m_ObjectHideFlags: 0
