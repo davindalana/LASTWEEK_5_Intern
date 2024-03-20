@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
     public GameObject shootBall;
     public Transform shootPoint;
-    private bool isAttacking = true;
+    public bool isAttacking = true;
 
     void Update()
     {
         Shoot();
     }
-    void Shoot()
+    public void Shoot()
     { 
         if (Input.GetKeyDown(KeyCode.Mouse0)&&isAttacking)
         {
@@ -21,10 +22,10 @@ public class PlayerShoot : MonoBehaviour
             StartCoroutine(ShootCD());
         }
     }
-    IEnumerator ShootCD()
+    public IEnumerator ShootCD()
     {
         isAttacking = false;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(.5f);
         isAttacking = true;
     }
 }

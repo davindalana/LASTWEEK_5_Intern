@@ -83,6 +83,7 @@ public class PlayerMovement : MonoBehaviour
             isDashing = true;
             speed *= dashSpeed;
             tr.emitting = true;
+            AudioManager.audio.PlaySound(0);
             StartCoroutine(Dashing());
         }
     }
