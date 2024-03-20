@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
     private float startingMoveSpeed;
     private bool facingLeft = false;
     private bool isDashing = false;
-    public LayerMask interact;
 
     private void Awake() {
         playerControls = new PlayerController();

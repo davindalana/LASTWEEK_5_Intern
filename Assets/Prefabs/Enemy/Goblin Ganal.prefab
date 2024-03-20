@@ -337,8 +337,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.024495905, y: -0.021433441}
-  m_Size: {x: 0.2603219, y: 0.57263786}
+  m_Offset: {x: -0.03616328, y: -0.0275323}
+  m_Size: {x: 0.2253415, y: 0.55}
   m_Direction: 0
 --- !u!50 &1620446825535746400
 Rigidbody2D:
@@ -366,7 +366,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1309890276727923609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e32b29776a724f5fa0bed08d547c948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whiteFlash: {fileID: 0}
+  whiteFlash: {fileID: 2100000, guid: 4bc89106ab1704ee6b63d333c26723a0, type: 2}
   restoreDefaultMatTime: 0.2
 --- !u!114 &7632675850437871472
 MonoBehaviour:
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5644327ba08d143dea3d9f593c458409, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eH: 15
+  eH: 40
   healthBar: {fileID: 0}
 --- !u!114 &99803224327013937
 MonoBehaviour:
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d57239d11104533947fecbe795c31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 2
   minRange: 0.75
   maxRange: 10
   home: {fileID: 0}
@@ -629,8 +629,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.67650646, y: 0.67650646, z: 0.67650646}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2608306108004537913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -667,5 +667,5 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.03616328, y: -0.0275323}
-  m_Size: {x: 0.22534154, y: 0.7887564}
+  m_Size: {x: 0.22534154, y: 0.55}
   m_Direction: 0

@@ -584,9 +584,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laser: {fileID: 9158633471418535423, guid: ec1a95dc5e1db449a9609d2425a4af8c, type: 3}
-  laserPos: {fileID: 0}
-  timer: 0
-  range: 0
+  laserPos: {fileID: 1134189245825793085}
+  timer: 3
+  range: 15
 --- !u!114 &1625291677900720533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,7 +626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5644327ba08d143dea3d9f593c458409, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eH: 3
+  eH: 8
   healthBar: {fileID: 0}
 --- !u!114 &5238357719071210384
 MonoBehaviour:
