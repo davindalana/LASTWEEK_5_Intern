@@ -23,6 +23,5 @@ public class Flash : MonoBehaviour
         spriteRenderer.material = whiteFlash;
         yield return new WaitForSeconds(restoreDefaultMatTime);
         spriteRenderer.material = defaultMat;
-        enemyHealth.DetectDeath();
     }
 }
