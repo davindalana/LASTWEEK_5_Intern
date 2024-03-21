@@ -284,7 +284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   minRange: 0.75
-  maxRange: 15
+  maxRange: 5
   home: {fileID: 0}
 --- !u!95 &3500554933162057289
 Animator:
