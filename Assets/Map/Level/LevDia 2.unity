@@ -656,14 +656,14 @@ MonoBehaviour:
   - 'MC: After i touch it i can use magic'
   - 'Stranger: Then try again'
   - '*The MC now can use dash*'
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  textSpeed: 1
+  - 'MC: Those pesky beasts are everywhere!, can''t catch a break, can we?'
+  - 'Stranger: Hey since you got some new magic tricks up your sleeve, why not give
+    them a whirl?'
+  - 'MC: Hmm... alrighty then'
+  - '*The MC try the new magic*'
+  - 'MC: Whooo! that felt invigorating! i.m zooming like a speeding bullet'
+  - '*USE SPACE BAR FOR USING DASH SKILL*'
+  textSpeed: 10
 --- !u!114 &920079415
 MonoBehaviour:
   m_ObjectHideFlags: 0
