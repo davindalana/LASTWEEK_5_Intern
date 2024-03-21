@@ -450,45 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 204616003}
   lines:
-  - A COUPLE MINUTE BEFORE
-  - 'MC: it''s hurt... where am i?'
-  - 'MC: What is that thing'
-  - '*MC saw a book lying beside*'
-  - 'Monster: GRHH...... GRHH......'
-  - 'MC: What is that? why they scream like that'
-  - '*When the mc try to backaway suddenly touch the book*'
-  - 'MC: This feeling? why did my body and mind felt overwhelmed'
-  - '*The monster backaway*'
-  - 'MC: Where are they?'
-  - 'MC: Forget it'
-  - 'MC: I think keep staying in here will be a problem'
-  - 'MC: I should explore this place'
-  - '*The MC walk through the forest*'
-  - 'MC: Someone stare at me'
-  - 'MC: Look like they''re at something'
-  - '*Suddenly the mc can cast a fireball magic*'
-  - 'MC: Why i can do that?'
-  - '*The MC look at the enemy*'
-  - 'MC: I should fight em'
-  - '*After the battle*'
-  - 'MC: What was that'
-  - 'MC: Hey you okay *MC talk to the stranger*'
-  - 'MC: I can''t understand him'
-  - 'MC: ???'
-  - 'Stranger: Thank you'
-  - 'MC: You can talk *sigh*'
-  - 'Stranger: Yes '
-  - 'Stranger: You... you are a mage? you have a great magic'
-  - 'MC: What is Magic?'
-  - 'MC: If you talk about the fire thingies, i didn''t really know about it'
-  - 'Stranger: What were you do is a fire magic, in this world there are many kind
-    of magic and fire magic is one of a kind'
-  - 'MC: Hmmm okay *The mc walk away*'
-  - 'Stranger: Where you wanna go, i want to go too'
-  - 'MC: Okay'
-  - '*After Defeating all the enemies*'
-  - 'MC: The gate is open'
-  - CLICK NEXT TO CONTINUE
+  - Thanks For Playing Our Game
   textSpeed: 10
 --- !u!1 &1395478607
 GameObject:
