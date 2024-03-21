@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 1569641249230114409}
   - component: {fileID: 5238357719071210384}
   - component: {fileID: 1778173239850454874}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Goblin_Sorcerer
   m_TagString: Humanoid
   m_Icon: {fileID: 0}

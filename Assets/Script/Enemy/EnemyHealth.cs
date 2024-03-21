@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField]
-    private float eH = 3f;
+    private float eH = 40f;
 
     private float maxHealth;
     private float currentHealth;
@@ -28,6 +28,10 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        if (currentHealth<=0)
+        {
+            DetectDeath();
+        }
         healthBar.UpdateHealthBar(currentHealth,maxHealth);
         Debug.Log(currentHealth);
         StartCoroutine(flash.FlashRoutine());

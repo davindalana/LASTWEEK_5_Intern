@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 6781581686940092532}
   - component: {fileID: 7878725038733700639}
   - component: {fileID: -4836008887825877354}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Goblin_Sword
   m_TagString: Humanoid
   m_Icon: {fileID: 0}

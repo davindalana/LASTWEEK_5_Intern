@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 53171263}
   m_Layer: 0
   m_Name: Square (45)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 65025695}
   m_Layer: 0
   m_Name: Square (11)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 68473323}
   m_Layer: 0
   m_Name: Square (56)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 91487512}
   m_Layer: 0
   m_Name: Square (40)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -774,7 +774,7 @@ GameObject:
   - component: {fileID: 114685533}
   m_Layer: 0
   m_Name: Square (19)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -932,7 +932,7 @@ GameObject:
   - component: {fileID: 130404568}
   m_Layer: 0
   m_Name: Square (48)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 139653757}
   m_Layer: 0
   m_Name: Square (21)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1234,6 +1234,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &145754014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.595955
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 57.701004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206260343049682230, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206260343049682230, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266633926314993095, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_Name
+      value: Goblin_Sorcerer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
 --- !u!1 &162571016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,7 +1432,7 @@ GameObject:
   - component: {fileID: 168336978}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1511,6 +1576,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &176841173
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 409520212109063483, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409520212109063483, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1054393683238601729, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_Name
+      value: Wolf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 128.90508
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 85.40424
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
 --- !u!1 &220612496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,7 +1739,7 @@ GameObject:
   - component: {fileID: 284264929}
   m_Layer: 0
   m_Name: Square (13)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1767,7 +1897,7 @@ GameObject:
   - component: {fileID: 293997473}
   m_Layer: 0
   m_Name: Square (10)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2067,7 +2197,7 @@ GameObject:
   - component: {fileID: 310881395}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2081,7 +2211,7 @@ Transform:
   m_GameObject: {fileID: 310881393}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45422,7 +45552,7 @@ GameObject:
   - component: {fileID: 340650409}
   m_Layer: 0
   m_Name: Square (47)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45566,6 +45696,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &345693943
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 409520212109063483, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409520212109063483, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1054393683238601729, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_Name
+      value: Wolf (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 86.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58019d04834a74f0e8fe94c8432d0f57, type: 3}
 --- !u!1 &358327446
 GameObject:
   m_ObjectHideFlags: 0
@@ -45626,7 +45821,7 @@ GameObject:
   - component: {fileID: 427174451}
   m_Layer: 0
   m_Name: Square (54)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45784,7 +45979,7 @@ GameObject:
   - component: {fileID: 427923483}
   m_Layer: 0
   m_Name: Square (25)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45942,7 +46137,7 @@ GameObject:
   - component: {fileID: 465430132}
   m_Layer: 0
   m_Name: Square (9)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46100,7 +46295,7 @@ GameObject:
   - component: {fileID: 502156211}
   m_Layer: 0
   m_Name: Square (8)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46244,6 +46439,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &512269051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 91.601654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 57.964058
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206260343049682230, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206260343049682230, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266633926314993095, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_Name
+      value: Goblin_Sorcerer (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
 --- !u!1 &577470467
 GameObject:
   m_ObjectHideFlags: 0
@@ -46258,7 +46518,7 @@ GameObject:
   - component: {fileID: 577470469}
   m_Layer: 0
   m_Name: Square (29)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46416,7 +46676,7 @@ GameObject:
   - component: {fileID: 580590500}
   m_Layer: 0
   m_Name: Square (6)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46619,7 +46879,7 @@ GameObject:
   - component: {fileID: 667881059}
   m_Layer: 0
   m_Name: Square (51)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46763,6 +47023,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &707294520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 144.3323
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 85.15134
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206260343049682230, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206260343049682230, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266633926314993095, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_Name
+      value: Goblin_Sorcerer (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
 --- !u!1 &767420655
 GameObject:
   m_ObjectHideFlags: 0
@@ -46777,7 +47102,7 @@ GameObject:
   - component: {fileID: 767420657}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47079,7 +47404,7 @@ GameObject:
   - component: {fileID: 775624620}
   m_Layer: 0
   m_Name: Square (42)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47237,7 +47562,7 @@ GameObject:
   - component: {fileID: 777540954}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47395,7 +47720,7 @@ GameObject:
   - component: {fileID: 821510019}
   m_Layer: 0
   m_Name: Square (37)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47553,7 +47878,7 @@ GameObject:
   - component: {fileID: 846958143}
   m_Layer: 0
   m_Name: Square (12)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47711,7 +48036,7 @@ GameObject:
   - component: {fileID: 876144567}
   m_Layer: 0
   m_Name: Square (39)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47869,7 +48194,7 @@ GameObject:
   - component: {fileID: 907169045}
   m_Layer: 0
   m_Name: Square (30)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48027,7 +48352,7 @@ GameObject:
   - component: {fileID: 917617395}
   m_Layer: 0
   m_Name: Square (16)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48171,6 +48496,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &948270388
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 98.683
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65.17186
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206260343049682230, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206260343049682230, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266633926314993095, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: m_Name
+      value: Goblin_Sorcerer (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
 --- !u!1 &979304761
 GameObject:
   m_ObjectHideFlags: 0
@@ -48185,7 +48575,7 @@ GameObject:
   - component: {fileID: 979304763}
   m_Layer: 0
   m_Name: Square (52)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48376,7 +48766,7 @@ GameObject:
   - component: {fileID: 1145764397}
   m_Layer: 0
   m_Name: Square (53)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48534,7 +48924,7 @@ GameObject:
   - component: {fileID: 1172578135}
   m_Layer: 0
   m_Name: Square (31)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48692,7 +49082,7 @@ GameObject:
   - component: {fileID: 1196923719}
   m_Layer: 0
   m_Name: Square (22)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48884,7 +49274,7 @@ GameObject:
   - component: {fileID: 1270918033}
   m_Layer: 0
   m_Name: Square (41)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49042,7 +49432,7 @@ GameObject:
   - component: {fileID: 1308166918}
   m_Layer: 0
   m_Name: Square (44)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49200,7 +49590,7 @@ GameObject:
   - component: {fileID: 1385291793}
   m_Layer: 0
   m_Name: Square (36)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49344,6 +49734,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1387600689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1387600690}
+  m_Layer: 6
+  m_Name: HomeGS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1387600690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387600689}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 90.716545, y: 78.322945, z: 0}
+  m_LocalScale: {x: 4.6729836, y: 4.6729836, z: 4.6729836}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1443177988
 GameObject:
   m_ObjectHideFlags: 0
@@ -49358,7 +49779,7 @@ GameObject:
   - component: {fileID: 1443177990}
   m_Layer: 0
   m_Name: Square (57)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49516,7 +49937,7 @@ GameObject:
   - component: {fileID: 1449649290}
   m_Layer: 0
   m_Name: Square (33)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49674,7 +50095,7 @@ GameObject:
   - component: {fileID: 1457091808}
   m_Layer: 0
   m_Name: Square (55)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49832,7 +50253,7 @@ GameObject:
   - component: {fileID: 1508110100}
   m_Layer: 0
   m_Name: Square (24)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50001,7 +50422,7 @@ Transform:
   m_GameObject: {fileID: 1513953088}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -50079,7 +50500,7 @@ GameObject:
   - component: {fileID: 1514902497}
   m_Layer: 0
   m_Name: Square (15)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50191,7 +50612,7 @@ GameObject:
   - component: {fileID: 1592822011}
   m_Layer: 0
   m_Name: Tree
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50205,7 +50626,7 @@ Transform:
   m_GameObject: {fileID: 1592822009}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.31, y: 0, z: 0}
+  m_LocalPosition: {x: -0.31, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53566,7 +53987,7 @@ GameObject:
   - component: {fileID: 1599480437}
   m_Layer: 0
   m_Name: Square (14)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53724,7 +54145,7 @@ GameObject:
   - component: {fileID: 1605938431}
   m_Layer: 0
   m_Name: Square (43)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53882,7 +54303,7 @@ GameObject:
   - component: {fileID: 1608893172}
   m_Layer: 0
   m_Name: Square (32)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54026,6 +54447,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1633173304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4836008887825877354, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: home
+      value: 
+      objectReference: {fileID: 1387600690}
+    - target: {fileID: 409520212109063483, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409520212109063483, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1054393683238601729, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_Name
+      value: Goblin_Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90.716545
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 78.322945
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
 --- !u!1 &1660759170
 GameObject:
   m_ObjectHideFlags: 0
@@ -54040,7 +54530,7 @@ GameObject:
   - component: {fileID: 1660759172}
   m_Layer: 0
   m_Name: Square (17)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54198,7 +54688,7 @@ GameObject:
   - component: {fileID: 1678474588}
   m_Layer: 0
   m_Name: Square (7)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54356,7 +54846,7 @@ GameObject:
   - component: {fileID: 1706867735}
   m_Layer: 0
   m_Name: Square (50)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54514,7 +55004,7 @@ GameObject:
   - component: {fileID: 1715214879}
   m_Layer: 0
   m_Name: Square (46)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54672,7 +55162,7 @@ GameObject:
   - component: {fileID: 1802063359}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54894,7 +55384,7 @@ GameObject:
   - component: {fileID: 1834335983}
   m_Layer: 0
   m_Name: Square (28)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55157,7 +55647,7 @@ GameObject:
   - component: {fileID: 1845455517}
   m_Layer: 0
   m_Name: Square (26)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55315,7 +55805,7 @@ GameObject:
   - component: {fileID: 1864240435}
   m_Layer: 0
   m_Name: Square (35)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55473,7 +55963,7 @@ GameObject:
   - component: {fileID: 1870545198}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55631,7 +56121,7 @@ GameObject:
   - component: {fileID: 1900214327}
   m_Layer: 0
   m_Name: Square (27)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55931,7 +56421,7 @@ GameObject:
   - component: {fileID: 1977322349}
   m_Layer: 0
   m_Name: Square (38)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56089,7 +56579,7 @@ GameObject:
   - component: {fileID: 2001858471}
   m_Layer: 0
   m_Name: Square (23)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56279,7 +56769,7 @@ GameObject:
   - component: {fileID: 2047017745}
   m_Layer: 0
   m_Name: Square (49)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56437,7 +56927,7 @@ GameObject:
   - component: {fileID: 2067311079}
   m_Layer: 0
   m_Name: Square (34)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56595,7 +57085,7 @@ GameObject:
   - component: {fileID: 2099497081}
   m_Layer: 0
   m_Name: Square (18)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56753,7 +57243,7 @@ GameObject:
   - component: {fileID: 2122388203}
   m_Layer: 0
   m_Name: Square (20)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56911,7 +57401,7 @@ GameObject:
   - component: {fileID: 2133719989}
   m_Layer: 0
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57069,7 +57559,7 @@ GameObject:
   - component: {fileID: 2137984884}
   m_Layer: 0
   m_Name: Square (58)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57223,3 +57713,11 @@ SceneRoots:
   - {fileID: 358327448}
   - {fileID: 1842658660}
   - {fileID: 1243978167}
+  - {fileID: 145754014}
+  - {fileID: 1633173304}
+  - {fileID: 948270388}
+  - {fileID: 512269051}
+  - {fileID: 707294520}
+  - {fileID: 176841173}
+  - {fileID: 345693943}
+  - {fileID: 1387600690}
