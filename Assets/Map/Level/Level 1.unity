@@ -4428,6 +4428,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3683039594039470092, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b90d04038c63f594cae42534218db024, type: 3}
     - target: {fileID: 6048352316734208498, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.8
@@ -19024,10 +19028,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1625291677900720533, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
-      propertyPath: knockBackTime
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.1
@@ -19080,13 +19080,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin_Sorcerer1
       objectReference: {fileID: 0}
-    - target: {fileID: 8266633926314993095, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3621397897501160124, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
