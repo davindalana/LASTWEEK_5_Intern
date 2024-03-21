@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 5640781778020745532}
   - component: {fileID: 7632675850437871472}
   - component: {fileID: 99803224327013937}
+  - component: {fileID: 1837714147796871819}
   m_Layer: 0
   m_Name: Goblin Ganal
   m_TagString: Humanoid
@@ -423,6 +424,27 @@ MonoBehaviour:
   minRange: 0.75
   maxRange: 20
   home: {fileID: 0}
+--- !u!95 &1837714147796871819
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654905052945008382}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 93a6ab471c6f844769be9f21efb22e1a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6588810926178385533
 GameObject:
   m_ObjectHideFlags: 0
