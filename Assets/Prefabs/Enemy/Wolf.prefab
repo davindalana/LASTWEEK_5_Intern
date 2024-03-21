@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: -4836008887825877354}
   m_Layer: 0
   m_Name: Wolf
-  m_TagString: Humanoid
+  m_TagString: Beast
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   minRange: 0.75
-  maxRange: 5
+  maxRange: 20
   home: {fileID: 0}
 --- !u!1 &1112161830696691595
 GameObject:
