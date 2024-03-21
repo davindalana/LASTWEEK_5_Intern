@@ -23,12 +23,14 @@ public class PlayerMovement : MonoBehaviour
     private float startingMoveSpeed;
     private bool facingLeft = false;
     private bool isDashing = false;
+    private KnockBack knockBack;
 
     private void Awake() {
         playerControls = new PlayerController();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sp = GetComponent<SpriteRenderer>();
+        knockBack = GetComponent<KnockBack>();
         Instance = this;
     }
     private void Start()
@@ -60,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Move() {
+        if (knockBack.gettingKnockedBack){ return; }
         rb.MovePosition(rb.position + movement * (speed * Time.fixedDeltaTime));
     }
 

@@ -4452,14 +4452,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1172613814621495147, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
-      propertyPath: audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 118bd142251af487bb03064394b21597, type: 3}
-    - target: {fileID: 2034317905701275438, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
-      propertyPath: audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 6b6fd65fc4656472cb5bf8c463eeda0e, type: 3}
     - target: {fileID: 5276376975294464115, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -4525,21 +4517,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
-      propertyPath: clip.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
-      propertyPath: clip.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: 4c890e2e68d8442358ead2cf2209e348, type: 3}
-    - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: clip.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 118bd142251af487bb03064394b21597, type: 3}
+      objectReference: {fileID: 8300000, guid: 16c9c42c8599d423a8e62d0e2e7d2f84, type: 3}
     - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: clip.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: 6b6fd65fc4656472cb5bf8c463eeda0e, type: 3}
+      objectReference: {fileID: 8300000, guid: d9a7935545efd46b1a18ab17aa768311, type: 3}
     - target: {fileID: 7798623408008912960, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: m_Name
       value: MC
@@ -14756,6 +14740,14 @@ PrefabInstance:
       propertyPath: home
       value: 
       objectReference: {fileID: 700088200}
+    - target: {fileID: 1309890276727923609, guid: 5f1d67e8e9af045728ee107f03504b69, type: 3}
+      propertyPath: knockBackTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620446825535746400, guid: 5f1d67e8e9af045728ee107f03504b69, type: 3}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1724033587553806963, guid: 5f1d67e8e9af045728ee107f03504b69, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -14808,8 +14800,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin Ganal
       objectReference: {fileID: 0}
+    - target: {fileID: 8764651310876308845, guid: 5f1d67e8e9af045728ee107f03504b69, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8764651310876308845, guid: 5f1d67e8e9af045728ee107f03504b69, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1d67e8e9af045728ee107f03504b69, type: 3}
@@ -18960,6 +18957,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1625291677900720533, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: knockBackTime
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.1
@@ -19013,7 +19014,8 @@ PrefabInstance:
       value: Goblin_Sorcerer1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3621397897501160124, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
@@ -20192,8 +20194,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6781581686940092532, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: knockBackTime
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3475286634059623272, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
@@ -22765,6 +22772,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1625291677900720533, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
+      propertyPath: knockBackTime
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5172777137397075146, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40.8
@@ -22818,7 +22829,8 @@ PrefabInstance:
       value: Goblin_Sorcerer3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3621397897501160124, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba28af34d7ab948fb868416b9b035e32, type: 3}
@@ -30456,8 +30468,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6781581686940092532, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: knockBackTime
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3475286634059623272, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
