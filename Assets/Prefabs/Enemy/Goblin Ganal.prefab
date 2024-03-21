@@ -421,7 +421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   minRange: 0.75
-  maxRange: 10
+  maxRange: 20
   home: {fileID: 0}
 --- !u!1 &6588810926178385533
 GameObject:
