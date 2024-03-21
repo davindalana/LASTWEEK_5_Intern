@@ -24,8 +24,10 @@ public class PlayerMovement : MonoBehaviour
     private bool facingLeft = false;
     private bool isDashing = false;
     private KnockBack knockBack;
+    public AudioSource footAudio;
 
-    private void Awake() {
+    private void Awake()
+    {
         playerControls = new PlayerController();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -38,31 +40,44 @@ public class PlayerMovement : MonoBehaviour
         startingMoveSpeed = speed;
     }
 
-    private void OnEnable() {
+    private void OnEnable()
+    {
         playerControls.Enable();
     }
 
-    private void Update() {
-        PlayerInput();
-        if(Input.GetKeyDown(KeyCode.Space))
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
+        {
+            footAudio.enabled = true;
+        }
+        else
+        {
+            footAudio.enabled = false;
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Dash();
         }
+        PlayerInput();
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
         AdjustPlayerFacingDirection();
         Move();
     }
 
-    private void PlayerInput() {
+    private void PlayerInput()
+    {
         movement = playerControls.Movement.Move.ReadValue<Vector2>();
         anim.SetFloat("moveX", movement.x);
         anim.SetFloat("moveY", movement.y);
     }
 
-    private void Move() {
-        if (knockBack.gettingKnockedBack){ return; }
+    private void Move()
+    {
+        if (knockBack.gettingKnockedBack) { return; }
         rb.MovePosition(rb.position + movement * (speed * Time.fixedDeltaTime));
     }
 
@@ -70,10 +85,13 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 mouse = Input.mousePosition;
         Vector3 ps = Camera.main.WorldToScreenPoint(transform.position);
-        if (mouse.x > ps.x) {
+        if (mouse.x > ps.x)
+        {
             sp.flipX = true;
             facingLeft = false;
-        } else {
+        }
+        else
+        {
             sp.flipX = false;
             facingLeft = true;
         }
@@ -81,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Dash()
     {
-        if(!isDashing)
+        if (!isDashing)
         {
             isDashing = true;
             speed *= dashSpeed;

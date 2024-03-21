@@ -4452,6 +4452,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3683039594039470092, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5276376975294464115, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -4476,6 +4480,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6004100040978138447, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6004100040978138447, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6004100040978138447, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e31fb57b9ce241bfa04cae64b7d83e5, type: 3}
     - target: {fileID: 6048352316734208498, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6
@@ -4517,17 +4533,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: clip.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: clip.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 16c9c42c8599d423a8e62d0e2e7d2f84, type: 3}
+      objectReference: {fileID: 8300000, guid: 118bd142251af487bb03064394b21597, type: 3}
     - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: clip.Array.data[2]
       value: 
+      objectReference: {fileID: 8300000, guid: 6b6fd65fc4656472cb5bf8c463eeda0e, type: 3}
+    - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: clip.Array.data[3]
+      value: 
       objectReference: {fileID: 8300000, guid: d9a7935545efd46b1a18ab17aa768311, type: 3}
+    - target: {fileID: 7371762308728024083, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: clip.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b6fd65fc4656472cb5bf8c463eeda0e, type: 3}
     - target: {fileID: 7798623408008912960, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
       propertyPath: m_Name
       value: MC
       objectReference: {fileID: 0}
+    - target: {fileID: 7816906376513301604, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+      propertyPath: footAudio
+      value: 
+      objectReference: {fileID: 961452638}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19428,6 +19460,11 @@ Rigidbody2D:
 --- !u!4 &961452637 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6048352316734208498, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
+  m_PrefabInstance: {fileID: 180110954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &961452638 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6004100040978138447, guid: 90fa97a31635b491eb20dfc1de36262e, type: 3}
   m_PrefabInstance: {fileID: 180110954}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &964718492
