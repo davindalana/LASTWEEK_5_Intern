@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7449625145955397401}
   m_Layer: 0
   m_Name: Wolf
-  m_TagString: Humanoid
+  m_TagString: Beast
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
