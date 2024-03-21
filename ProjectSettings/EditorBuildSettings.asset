@@ -9,15 +9,30 @@ EditorBuildSettings:
     path: Assets/Map/Level/Main Menu.unity
     guid: 52b20ba31ef0a7a4aa3606163cc37e70
   - enabled: 1
+    path: Assets/Map/Level/LevDia 1.unity
+    guid: 24a5441a2597f244f988feaf6a17e1ea
+  - enabled: 1
     path: Assets/Map/Level/Level 1.unity
     guid: ab2c2592153544c4c8675f44b107fce2
+  - enabled: 1
+    path: Assets/Map/Level/LevDia 2.unity
+    guid: f6193c80875910040be38125b15cda78
   - enabled: 1
     path: Assets/Map/Level/Level2.unity
     guid: 7ae10af5229902f45a644c75a107b053
   - enabled: 1
+    path: Assets/Map/Level/LevDia 3.unity
+    guid: 185a99e3463548148906a8258125e3b6
+  - enabled: 1
     path: Assets/Map/Level/Level3.unity
     guid: 59f9b182fae2e5c40806888d89ea9aa4
   - enabled: 1
+    path: Assets/Map/Level/LevDia 4.unity
+    guid: 9244bee9b746f314d9a341ada695b2b6
+  - enabled: 1
     path: Assets/Map/Level/Level 4.unity
     guid: 2ac7e6d8285f4e844963555987d78ebf
+  - enabled: 1
+    path: Assets/Map/Level/The End.unity
+    guid: 2f9200da9cfffd54ebb563114c854da6
   m_configObjects: {}
