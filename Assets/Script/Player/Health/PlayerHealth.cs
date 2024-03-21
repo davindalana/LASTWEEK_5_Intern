@@ -8,19 +8,21 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private int health = 5;
     [SerializeField] private float knockBackAmount = 10f;
     [SerializeField] private float damageRecoveryTime = 1f;
-    private int currentHealth;
     private bool canTakeDamage = true;
     private KnockBack knockBack;
     private Flash flash;
     public GameObject[] healthUI;
+    
 
     public void Awake()
     {
         flash = GetComponent<Flash>();
         knockBack = GetComponent<KnockBack>();
     }
+
     public void TakeDamage()
     {
+        AudioManager.audio.PlaySound(3);
         canTakeDamage = false;
         Debug.Log(health);
         health--;
