@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 22565770}
   m_Layer: 0
   m_Name: Square (45)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -715,7 +715,7 @@ GameObject:
   - component: {fileID: 39771234}
   m_Layer: 0
   m_Name: Square (14)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -873,7 +873,7 @@ GameObject:
   - component: {fileID: 40307106}
   m_Layer: 0
   m_Name: Square (30)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 54385486}
   m_Layer: 0
   m_Name: Square (54)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1840,7 +1840,7 @@ GameObject:
   - component: {fileID: 81547708}
   m_Layer: 0
   m_Name: Square (49)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2082,7 +2082,7 @@ GameObject:
   - component: {fileID: 91865089}
   m_Layer: 0
   m_Name: Square (36)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3036,7 +3036,7 @@ GameObject:
   - component: {fileID: 146814925}
   m_Layer: 0
   m_Name: Square (64)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3194,7 +3194,7 @@ GameObject:
   - component: {fileID: 162932415}
   m_Layer: 0
   m_Name: Square (23)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3604,7 +3604,7 @@ GameObject:
   - component: {fileID: 182036558}
   m_Layer: 0
   m_Name: Square (67)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5564,7 +5564,7 @@ GameObject:
   - component: {fileID: 346332914}
   m_Layer: 0
   m_Name: Square (28)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5806,7 +5806,7 @@ GameObject:
   - component: {fileID: 346918439}
   m_Layer: 0
   m_Name: Square (51)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6636,7 +6636,7 @@ GameObject:
   - component: {fileID: 423585559}
   m_Layer: 0
   m_Name: Square (32)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6948,134 +6948,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 507932805}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &442571038
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 442571040}
-  - component: {fileID: 442571039}
-  m_Layer: 0
-  m_Name: Audio Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &442571039
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442571038}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b90d04038c63f594cae42534218db024, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 474.922
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &442571040
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442571038}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 269.927, y: 305.16913, z: -3.7242892}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &444562753
 GameObject:
   m_ObjectHideFlags: 0
@@ -7342,7 +7214,7 @@ GameObject:
   - component: {fileID: 474668526}
   m_Layer: 0
   m_Name: Square (41)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7905,7 +7777,7 @@ GameObject:
   - component: {fileID: 505442228}
   m_Layer: 0
   m_Name: Square (18)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8770,7 +8642,7 @@ GameObject:
   - component: {fileID: 521612736}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8928,7 +8800,7 @@ GameObject:
   - component: {fileID: 530424721}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9590,7 +9462,7 @@ GameObject:
   - component: {fileID: 569499158}
   m_Layer: 0
   m_Name: Square (8)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10000,7 +9872,7 @@ GameObject:
   - component: {fileID: 577478756}
   m_Layer: 0
   m_Name: Square (35)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10242,7 +10114,7 @@ GameObject:
   - component: {fileID: 588414487}
   m_Layer: 0
   m_Name: Square (42)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10736,7 +10608,7 @@ GameObject:
   - component: {fileID: 619576405}
   m_Layer: 0
   m_Name: Square (69)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10978,7 +10850,7 @@ GameObject:
   - component: {fileID: 624912896}
   m_Layer: 0
   m_Name: Square (16)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12456,7 +12328,7 @@ GameObject:
   - component: {fileID: 729033012}
   m_Layer: 0
   m_Name: Square (53)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12614,7 +12486,7 @@ GameObject:
   - component: {fileID: 739830440}
   m_Layer: 0
   m_Name: Square (63)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12772,7 +12644,7 @@ GameObject:
   - component: {fileID: 747012603}
   m_Layer: 0
   m_Name: Square (58)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13098,7 +12970,7 @@ GameObject:
   - component: {fileID: 765261674}
   m_Layer: 0
   m_Name: Square (38)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13569,7 +13441,7 @@ GameObject:
   - component: {fileID: 775183480}
   m_Layer: 0
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14044,7 +13916,7 @@ GameObject:
   - component: {fileID: 817452229}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14485,7 +14357,7 @@ GameObject:
   - component: {fileID: 854074101}
   m_Layer: 0
   m_Name: Square (11)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14979,7 +14851,7 @@ GameObject:
   - component: {fileID: 895823550}
   m_Layer: 0
   m_Name: Square (34)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15954,7 +15826,7 @@ GameObject:
   - component: {fileID: 976938235}
   m_Layer: 0
   m_Name: Square (25)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17036,7 +16908,7 @@ GameObject:
   - component: {fileID: 1080217282}
   m_Layer: 0
   m_Name: Square (40)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17446,7 +17318,7 @@ GameObject:
   - component: {fileID: 1100096113}
   m_Layer: 0
   m_Name: Square (55)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17688,7 +17560,7 @@ GameObject:
   - component: {fileID: 1110386657}
   m_Layer: 0
   m_Name: Square (65)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19357,7 +19229,7 @@ GameObject:
   - component: {fileID: 1174667305}
   m_Layer: 0
   m_Name: Square (37)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19599,7 +19471,7 @@ GameObject:
   - component: {fileID: 1182687405}
   m_Layer: 0
   m_Name: Square (44)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20575,7 +20447,7 @@ GameObject:
   - component: {fileID: 1218360305}
   m_Layer: 0
   m_Name: Square (46)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20985,7 +20857,7 @@ GameObject:
   - component: {fileID: 1232863933}
   m_Layer: 0
   m_Name: Square (61)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22124,7 +21996,7 @@ GameObject:
   - component: {fileID: 1342029374}
   m_Layer: 0
   m_Name: Square (31)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22534,7 +22406,7 @@ GameObject:
   - component: {fileID: 1367211890}
   m_Layer: 0
   m_Name: Square (24)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22776,7 +22648,7 @@ GameObject:
   - component: {fileID: 1383979433}
   m_Layer: 0
   m_Name: Square (9)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22934,7 +22806,7 @@ GameObject:
   - component: {fileID: 1387713243}
   m_Layer: 0
   m_Name: Square (29)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23092,7 +22964,7 @@ GameObject:
   - component: {fileID: 1388193061}
   m_Layer: 0
   m_Name: Square (57)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23334,7 +23206,7 @@ GameObject:
   - component: {fileID: 1393502201}
   m_Layer: 0
   m_Name: Square (66)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23576,7 +23448,7 @@ GameObject:
   - component: {fileID: 1410184806}
   m_Layer: 0
   m_Name: Square (26)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23734,7 +23606,7 @@ GameObject:
   - component: {fileID: 1418648714}
   m_Layer: 0
   m_Name: Square (7)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24396,7 +24268,7 @@ GameObject:
   - component: {fileID: 1465855037}
   m_Layer: 0
   m_Name: Square (48)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24806,7 +24678,7 @@ GameObject:
   - component: {fileID: 1482030469}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25082,7 +24954,7 @@ GameObject:
   - component: {fileID: 1493433071}
   m_Layer: 0
   m_Name: Square (47)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25324,7 +25196,7 @@ GameObject:
   - component: {fileID: 1510774960}
   m_Layer: 0
   m_Name: Square (70)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25482,7 +25354,7 @@ GameObject:
   - component: {fileID: 1528143950}
   m_Layer: 0
   m_Name: Square (13)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25808,7 +25680,7 @@ GameObject:
   - component: {fileID: 1541829132}
   m_Layer: 0
   m_Name: Square (17)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26302,7 +26174,7 @@ GameObject:
   - component: {fileID: 1550013459}
   m_Layer: 0
   m_Name: Square (39)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28056,7 +27928,7 @@ GameObject:
   - component: {fileID: 1668843472}
   m_Layer: 0
   m_Name: Square (21)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28214,7 +28086,7 @@ GameObject:
   - component: {fileID: 1671074385}
   m_Layer: 0
   m_Name: Square (52)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28372,7 +28244,7 @@ GameObject:
   - component: {fileID: 1676059057}
   m_Layer: 0
   m_Name: Square (62)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28530,7 +28402,7 @@ GameObject:
   - component: {fileID: 1684978660}
   m_Layer: 0
   m_Name: Square (50)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28856,7 +28728,7 @@ GameObject:
   - component: {fileID: 1689826747}
   m_Layer: 0
   m_Name: Square (10)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29182,7 +29054,7 @@ GameObject:
   - component: {fileID: 1713981618}
   m_Layer: 0
   m_Name: Square (22)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30165,7 +30037,7 @@ GameObject:
   - component: {fileID: 1772952249}
   m_Layer: 0
   m_Name: Square (43)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30942,7 +30814,7 @@ GameObject:
   - component: {fileID: 1847430990}
   m_Layer: 0
   m_Name: Square (68)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31184,7 +31056,7 @@ GameObject:
   - component: {fileID: 1862231427}
   m_Layer: 0
   m_Name: Square (15)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31426,7 +31298,7 @@ GameObject:
   - component: {fileID: 1870853458}
   m_Layer: 0
   m_Name: Square (56)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31836,7 +31708,7 @@ GameObject:
   - component: {fileID: 1885956523}
   m_Layer: 0
   m_Name: Square (20)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32498,7 +32370,7 @@ GameObject:
   - component: {fileID: 1918293398}
   m_Layer: 0
   m_Name: Square (60)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32740,7 +32612,7 @@ GameObject:
   - component: {fileID: 1924355838}
   m_Layer: 0
   m_Name: Square (6)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80016,7 +79888,7 @@ GameObject:
   - component: {fileID: 1992172879}
   m_Layer: 0
   m_Name: Square (19)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80594,7 +80466,7 @@ GameObject:
   - component: {fileID: 2049037292}
   m_Layer: 0
   m_Name: Square (12)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80821,7 +80693,7 @@ GameObject:
   - component: {fileID: 2058832853}
   m_Layer: 0
   m_Name: Square (27)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81147,7 +81019,7 @@ GameObject:
   - component: {fileID: 2065816188}
   m_Layer: 0
   m_Name: Square (59)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82397,7 +82269,7 @@ GameObject:
   - component: {fileID: 2131278033}
   m_Layer: 0
   m_Name: Square (33)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82748,7 +82620,6 @@ SceneRoots:
   - {fileID: 1264225466}
   - {fileID: 768805549}
   - {fileID: 1491949574}
-  - {fileID: 442571040}
   - {fileID: 1215475340}
   - {fileID: 969521595}
   - {fileID: 1121970947}
