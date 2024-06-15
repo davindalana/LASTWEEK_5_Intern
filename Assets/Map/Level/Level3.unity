@@ -4748,7 +4748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d867c51add821014cb1a57f9b41c8a42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildingIndex: 7
+  sceneBuildingIndex: 3
 --- !u!61 &297998929
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7634,6 +7634,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin_Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 1425736187360808886, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425736187360808886, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1382512099
+      objectReference: {fileID: 0}
     - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 143.38188
@@ -8571,6 +8579,10 @@ PrefabInstance:
       propertyPath: home
       value: 
       objectReference: {fileID: 2134122237}
+    - target: {fileID: 230371883579064817, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409520212109063483, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -8582,6 +8594,26 @@ PrefabInstance:
     - target: {fileID: 1054393683238601729, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
       propertyPath: m_Name
       value: Goblin_Sword (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1054393683238601729, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112161830696691595, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425736187360808886, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425736187360808886, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1382512099
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420767525107851237, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8622,6 +8654,14 @@ PrefabInstance:
     - target: {fileID: 5790581866352508640, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154849719196874656, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558905517499645775, guid: d8feee1fd037046d685991f77302e5b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32767,7 +32807,7 @@ GameObject:
   - component: {fileID: 1924930056}
   - component: {fileID: 1924930058}
   - component: {fileID: 1924930057}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

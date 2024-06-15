@@ -18,7 +18,7 @@ TagManager:
   - Enemy
   - Player
   - Book
-  - 
+  - Map
   - 
   - 
   - 
@@ -47,4 +47,7 @@ TagManager:
     locked: 0
   - name: Backkground
     uniqueID: 3415263163
+    locked: 0
+  - name: Enemy
+    uniqueID: 2912455197
     locked: 0

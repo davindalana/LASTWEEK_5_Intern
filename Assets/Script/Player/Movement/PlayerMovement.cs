@@ -13,7 +13,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float dashSpeed = 4f;
     [SerializeField]
-    private TrailRenderer tr;
 
     private PlayerController playerControls;
     private Vector2 movement;
@@ -103,7 +102,6 @@ public class PlayerMovement : MonoBehaviour
         {
             isDashing = true;
             speed *= dashSpeed;
-            tr.emitting = true;
             AudioManager.audio.PlaySound(0);
             StartCoroutine(Dashing());
         }
@@ -114,7 +112,6 @@ public class PlayerMovement : MonoBehaviour
         float dashCD = .25f;
         yield return new WaitForSeconds(dashTime);
         speed = startingMoveSpeed;
-        tr.emitting = false;
         yield return new WaitForSeconds(dashCD);
         isDashing = false;
     }
